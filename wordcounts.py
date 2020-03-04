@@ -15,7 +15,7 @@ from collections import Counter
 def ReviewWords(month, year):
     hostname = 'localhost'
     username = 'postgres'
-    password = 'danny6'
+    password = '******'
     database = 'RestaurantReviews'
     
     conn = pg2.connect(host = hostname, database = database, user = username, password = password)
@@ -50,7 +50,7 @@ def ReviewWords(month, year):
 def FinalizeKeywords(dictionary):
     hostname = 'localhost'
     username = 'postgres'
-    password = 'danny6'
+    password = '*******'
     database = 'RestaurantReviews'
     
     conn = pg2.connect(host = hostname, database = database, user = username, password = password)

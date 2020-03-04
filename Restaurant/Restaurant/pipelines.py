@@ -16,7 +16,7 @@ class RestaurantPipeline(object):
     def open_spider(self, spider):
         hostname = 'localhost'
         username = 'postgres'
-        password = 'danny6'
+        password = '******'
         database = 'RestaurantReviews'
         
         self.conn = pg2.connect(host = hostname, database = database, user = username, password = password)

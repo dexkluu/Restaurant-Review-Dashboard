@@ -33,7 +33,7 @@ class ReviewsSpider(scrapy.Spider):
     def parse(self, response):
         hostname = 'localhost'
         username = 'postgres'
-        password = 'danny6'
+        password = '*******'
         database = 'RestaurantReviews'
         
         conn = pg2.connect(host = hostname, database = database, user = username, password = password)
