@@ -10,7 +10,7 @@
 
   Because understanding how a restaurant is doing in terms of ratings and knowing what customers are saying about the restaurant are highly related, it makes sense to display this information in a dashboard where they can be seen together. This project utilizes Tableau's dashboarding software to highlight recent customer feelings toward Michael Mina's and Ayesha Curry's International Smoke and areas the restaurant can improve in.
 
-  Rating and review data were scraped off the web using Python's scrapy framework, reviews were processed to obtain keywords, and the information was displayed in a Tableau dashboard. Keyword counts are the unique counts for each review. This means that if a unique keyword count shows as 6, the keyword appeared in 6 reviews. This prevents inflating a keyword count by a review that mentions a specific keyword multiple times. 
+  Rating and review data were scraped off the web using Python's scrapy framework, reviews were processed to obtain keywords, and the information was displayed in a Tableau dashboard. Keyword counts are the unique counts for each review. This means that if a unique keyword count shows as 6, the keyword appeared in 6 reviews. This prevents inflating a keyword count by a review that mentions a specific keyword multiple times. A schematic of the data flow for the project is shown below.
  <img src="RestaurantReviewDataFlow.png" alt="hi" class="inline"/>
 
 ## Tools Used
