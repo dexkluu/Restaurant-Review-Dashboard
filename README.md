@@ -1,7 +1,7 @@
 # Restaurant Review Dashboard
 
 ## Summary
-  Because restaurants are a customer service business, insights in how a restaurant is performing can be gained by observing customer sentiments in online reviews. Reviews for a restaurant were scraped off the web using Python's scrapy, processed to show meaningful information, and displayed in a Tableau dashboard. The dashboard is able to clearly show recent monthly performance in terms of customer ratings as well as common keywords in their reviews all in one place.
+  Because restaurants are a customer service business, insights in how a restaurant is performing can be gained by observing customer sentiments in online reviews. Reviews for a restaurant were scraped off the web using Python's scrapy, processed to show meaningful information, and displayed in a Tableau dashboard. As can be seen at the bottom of the page, the dashboard is able to clearly show recent monthly performance in terms of customer ratings as well as common keywords in their reviews all in one place.
 
 ## Overview and Data
   Customer sentiments toward a restaurant are highly indicative of the quality of service a restaurant provides. It is common for potential customers to screen out restaurants they want to dine at due to subpar online reviews. Because of this, many restaurants should pay attention to how their customers have been feeling about their business to know if it is achieving the standard goal of 4 out of 5 points on average in online reviews.
